@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.Cards-Container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px 25px rgba(1, 1, 1, 20%);
+  min-width: 300px;
+  align-items: center;
+}
+
+.Addbtn {
+  width: 120px;
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  background-color: red;
+  margin-bottom: 5px;
+}
+
+.Addbtn:hover {
+  background-color:rgb(142, 12, 12);
+  transition: 0.7s ease;
+}
+
+.Addbtn:active {
+  transform: scale(0.9);
+  transition: 0.7s ease;
+}
+
+.headercontainer {
+  text-align: center;
+}
+
+.header {
+  color: red;
+}
