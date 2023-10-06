@@ -1,0 +1,46 @@
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    z-index: 999; 
+  }
+  
+  .AddPagecontainer {
+    background: white; 
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 300px;
+    height: 100px;
+  }
+  .Addbtn {
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: red;
+    margin-bottom: 5px;
+  }
+  
+  .Addbtn:hover {
+    background-color:rgb(142, 12, 12);
+    transition: 0.7s ease;
+  }
+  
+  .Addbtn:active {
+    transform: scale(0.9);
+    transition: 0.7s ease;
+  }
+  
+  
