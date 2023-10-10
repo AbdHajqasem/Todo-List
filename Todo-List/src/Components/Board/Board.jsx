@@ -1,7 +1,7 @@
 import "./Board.css";
 import { useState } from "react";
-import AddPage from "./AddPage";
-import Card from './Card'
+import AddPage from "../AddPage/AddPage";
+import Card from '../Card/Card'
 const Board = () => {
 const [showPopUpPage,setshowPopUpPage]=useState(false);
 const[arr,setArr]=useState([]);
@@ -21,10 +21,10 @@ const getNewToDo=(newToDo)=>{
         <div className="headercontainer">
           <h2 className="header">Todo-List</h2>
         </div>
-        {arr.map((element) => (
+        {arr.map((element,key) => (
         <Card
         toDo={element.enteredToDo}
-        key={element.id}
+        key={key}
         />
       ))}
         <div>
