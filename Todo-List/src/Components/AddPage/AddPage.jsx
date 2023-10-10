@@ -6,8 +6,7 @@ const AddPage = (prop) => {
     setEnteredToDo(event.target.value);
   };
   const newToDo = {
-    enteredToDo: enteredToDo,
-    id: Math.random().toString(),
+    enteredToDo: enteredToDo
   };
   const addnewToDo = () => {
     prop.onClickAddDisAppear();
